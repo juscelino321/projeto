@@ -1,0 +1,163 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Variáveis de cor
+/* app.scss */
+
+/* Import Bootstrap for convenience */
+
+/* app.css */
+
+/* Reset CSS */
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f0f0f0; /* Fundo cinza claro */
+    color: #333; /* Texto cinza escuro */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #2980b9; /* Azul */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff; /* Texto branco */
+}
+
+.navbar a.navbar-brand:hover {
+    color: #fff; /* Texto branco */
+    opacity: 0.8;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff; /* Texto branco */
+    padding: 0.5rem 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    opacity: 0.8;
+}
+
+.navbar .dropdown-menu {
+    background-color: #2980b9; /* Azul */
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #fff; /* Texto branco */
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #2471a3; /* Azul mais escuro */
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd; /* Bordas cinza claro */
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #3498db; /* Azul mais claro */
+    color: #fff; /* Texto branco */
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fundo cinza claro */
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2; /* Fundo cinza mais claro */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; /* Azul mais claro */
+    color: #fff; /* Texto branco */
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Azul */
+}
+
+/* Form Styles */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Bordas cinza claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Message Styles */
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.success-message {
+    background-color: #dff0d8; /* Verde claro */
+    color: #3c763d; /* Verde mais escuro */
+    border: 1px solid #d6e9c6; /* Verde mais claro */
+}
+
+.error-message {
+    background-color: #f2dede; /* Vermelho claro */
+    color: #a94442; /* Vermelho mais escuro */
+    border: 1px solid #ebccd1; /* Vermelho mais claro */
+}
+
+
+a{
+    color: black;
+}
